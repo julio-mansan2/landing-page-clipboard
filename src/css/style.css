@@ -32,7 +32,7 @@ h2 {
 .header {
     grid-area: header;
     background: url(../images/bg-header-desktop.png) top center no-repeat;
-    padding: 5% 30%;
+    padding: 10% 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,6 +65,7 @@ h2 {
     color: #fff;
     font-weight: 600;
     transition: 0.3s;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
 }
 
 .donwload-ios {
@@ -108,7 +109,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    padding-right: 10%;
+    padding-right: 15%;
 }
 
 .benefits li h3 {
@@ -213,6 +214,7 @@ h2 {
     color: #fff;
     font-weight: 600;
     transition: 0.3s;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.7);
 }
 
 .call-to-action p {
