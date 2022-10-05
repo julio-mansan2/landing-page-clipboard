@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+
+    .header div {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        background-image: url(../images/bg-header-mobile.png);
+    }
+    
+    .benefits {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits img {
+        width: 37.5rem;
+        margin: 0 2.5rem;
+    }
+
+    .benefits ul {
+        padding-right: 0;
+        text-align: center;
+        max-width: 37.5rem;
+    }
+
+    .devices img {
+        width: 37.5rem;
+    }
+
+    .tools ul {
+        grid-template-columns: 1fr;
+    }
+
+    .images {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+        margin: 0;
+    }
+
+    .images img {
+        padding: 5% 0;
+    }
+
+    .call-to-action div {
+        flex-direction: column;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer ul {
+        gap: 30px;
+    }
+
+    .footer .links {
+        margin: 1rem;
+    }
+
+}
+
